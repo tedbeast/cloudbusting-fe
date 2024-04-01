@@ -9,7 +9,8 @@ export function getWorkspace(workspace:Workspace){
         headers: {
             "Content-Type": "application/json",
             "Access-Control-Allow-Headers":"*",
-            "Access-Control-Allow-Method":"*"
+            "Access-Control-Allow-Method":"*",
+            "Access-Control-Allow-Origin":"*"
           },
         body:JSON.stringify(workspace)
     })
