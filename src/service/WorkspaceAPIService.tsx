@@ -8,9 +8,9 @@ export function getWorkspace(workspace:Workspace){
         mode:"cors",
         headers: {
             "Content-Type": "application/json",
+            "Access-Control-Allow-Origin":"*",
             "Access-Control-Allow-Headers":"*",
-            "Access-Control-Allow-Method":"*",
-            "Access-Control-Allow-Origin":"*"
+            "Access-Control-Allow-Method":"*"
           },
         body:JSON.stringify(workspace)
     })
