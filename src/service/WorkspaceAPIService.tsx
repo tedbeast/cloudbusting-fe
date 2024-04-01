@@ -7,10 +7,7 @@ export function getWorkspace(workspace:Workspace){
         method:"POST",
         mode:"cors",
         headers: {
-            "Content-Type": "application/json",
-            "Access-Control-Allow-Origin":"*",
-            "Access-Control-Allow-Headers":"*",
-            "Access-Control-Allow-Method":"*"
+            "Content-Type": "application/json"
           },
         body:JSON.stringify(workspace)
     })
